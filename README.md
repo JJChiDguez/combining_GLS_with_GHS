@@ -23,6 +23,7 @@ CONTENTS OF THIS FILE
 
 	* Introduction
 	* Requirements
+	* Remarks
 	* Configuration
  
 ---------------------
@@ -51,8 +52,22 @@ This program requires to have installed the algebra system Magma.
 
 -------------------------------------------------------------------------------
 
+REMARKS
+
+Before running our Magma code implementation, one should create the folders 
+outputs/tmp and outputs/logs. This step is done only one time by running the 
+following two commands:
+
+	mkdir outputs/tmp
+	mkdir outputs/tmp
+
+
+
+-------------------------------------------------------------------------------
+
 CONFIGURATION
 
+[FINDING DISCRETE LOGARITHMS: GLS combined with GHS]
 
 First, one needs to create the files that contain the following:
 
@@ -111,10 +126,7 @@ REMARKS: The following info could save your day:
 	thread died
 
 
-
------------------------------------------------------------------------------
-
-TESTING THE GENERALIZED GLS ENDOMORPHISM IN THE JACOBIAN:
+[TESTING THE GENERALIZED GLS ENDOMORPHISM IN THE JACOBIAN]
 
 
 One needs to create the files that contain the following:	
@@ -134,4 +146,3 @@ One needs to create the files that contain the following:
 	
 Once that one has the framework correctly set, to run:
 	magma lib/ENDOMORPHISM_IN_THE_JACOBIAN.m
-	
