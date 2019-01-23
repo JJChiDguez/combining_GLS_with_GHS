@@ -1,1 +1,1 @@
-load "./inc/GF/GF_5x31.m";
+load "./inc/GF/GF_2x31.m";
