@@ -58,6 +58,7 @@ Before running our Magma code implementation, one should create the folders
 outputs/tmp and outputs/logs. This step is done only one time by running the 
 following two commands:
 
+	mkdir inc/tmp
 	mkdir outputs/tmp
 	mkdir outputs/logs
 
