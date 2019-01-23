@@ -1,0 +1,32 @@
+Magma V2.21-5     Mon Oct  1 2018 15:06:42 on pakal    [Seed = 82426114]
+Type ? for help.  Type <Ctrl>-D to quit.
+
+Loading file "main/GET_MATRIX_TRANSPOSE.m"
+Loading "./inc/FINITE_FIELD.m"
+Loading "./inc/GF/GF_5x31.m"
+Loading "./inc/tmp/ELLIPTIC_CURVE_parameters"
+Loading "./inc/tmp/ELLIPTIC_CURVE_instance"
+Loading "./inc/SMOOTHNESS_PARAMETERS.m"
+Loading "./inc/tmp/GENUS_g_HCURVE_parameters"
+Loading "./inc/tmp/GENUS_g_HCURVE_instance"
+[STEP #1] WE READ THE MATRIX FROM THE FILES ./outputs/tmp/COEFS AND ./outputs/tmp/INDXS
+Time: 0.470
+[STEP #2] WE CREATE TWO STRUCTURES THAT DETERMINE THE TRANPOSE OF THE MATRIX
+WE DO IT BY USING THE FILES ./outputs/tmp/COEFS AND ./outputs/tmp/INDXS
+Time: 7.740
+[STEP #3] WE CONSTRUCT THE TRANSPOSE OF THE MATRIX BY USING THOSE TWO STRUCTURES
+Time: 0.580
+[STEP #4] WE TRANSPOSE THE MATRIX BY USING THE Transpose() FUNCTION
+Time: 0.020
+Our transpose matrix constructed is equal to magma transpose output? true
+[STEP #5] WE CREATE THE FILES ./outputs/tmp/tr_INDXS AND ./outputs/tmp/tr_COEFS
+Time: 6.180
+[STEP #6] WE READ THE TRANSPOSE OF THE MATRIX FROM THE FILES 
+./outputs/tmp/tr_COEFS AND ./outputs/tmp/tr_INDXS
+Time: 1.190
+Time: 0.000
+THE TRANSPOSE OF THE MATRIX CONSTRUCTED BY THE FILES ./outputs/tmp/tr_COEFS AND 
+./outputs/tmp/tr_INDXS IS EQUAL TO THE MATRIX CONSTRUCTED BY THE FILES ./outputs/tmp/INDXS AND 
+./outputs/tmp/COEFS? true
+
+Total time: 17.870 seconds, Total memory usage: 214.19MB

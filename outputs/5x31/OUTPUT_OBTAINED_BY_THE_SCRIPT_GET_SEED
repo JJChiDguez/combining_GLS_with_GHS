@@ -1,0 +1,20 @@
+Magma V2.21-5     Mon Sep 17 2018 12:47:51 on jjchi-desktop [Seed = 1806483847]
+Type ? for help.  Type <Ctrl>-D to quit.
+
+Loading file "main/GET_SEED.m"
+Loading "./inc/FINITE_FIELD.m"
+Loading "./inc/GF/GF_5x31.m"
+Loading "./inc/tmp/ELLIPTIC_CURVE_parameters"
+Loading "./inc/tmp/ELLIPTIC_CURVE_instance"
+Loading "./inc/SMOOTHNESS_PARAMETERS.m"
+finding the eingevalue lambda of the endomorphism psi!
+Loading "./inc/tmp/GENUS_g_HCURVE_parameters"
+Loading "./inc/tmp/GENUS_g_HCURVE_instance"
+Computing the coefficients delta_1, delta_3, delta_4 and delta_5
+Time: 0.070
+Time: 0.060
+Loading "./lib/LIBRARY.m"
+Loading "./lib/RANDOM_WALK.m"
+Creating the 128 magma scripts!
+
+Total time: 16.429 seconds, Total memory usage: 32.09MB

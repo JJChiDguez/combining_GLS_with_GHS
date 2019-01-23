@@ -1,0 +1,24 @@
+Magma V2.20-2     Mon Oct  1 2018 15:32:59 on jupiter3 [Seed = 3826072552]
+Type ? for help.  Type <Ctrl>-D to quit.
+
+Loading file "main/GET_VECTOR_OF_THE_KERNEL.m"
+Loading "./inc/FINITE_FIELD.m"
+Loading "./inc/GF/GF_5x31.m"
+Loading "./inc/tmp/ELLIPTIC_CURVE_parameters"
+Loading "./inc/tmp/ELLIPTIC_CURVE_instance"
+Loading "./inc/SMOOTHNESS_PARAMETERS.m"
+Loading "./inc/tmp/GENUS_g_HCURVE_parameters"
+Loading "./inc/tmp/GENUS_g_HCURVE_instance"
+Loading "./lib/LIBRARY.m"
+> 1.080 s,
+We proceed to find a vector of the kernel of an 
+Sparse matrix with 27271 rows and 27271 columns over Integer Ring       we have found one vector.
+> 2101.120 s
+Does the vector belong to the kernel?    true
+> Saving the vector solution... See file ./outputs/tmp/VECTOR_IN_THE_KERNEL
+> Computing the dLog!
+
+The DLP was successfully solved it.
+LoG_D * Pt eq Pt_prime? true
+
+Total time: 2104.900 seconds, Total memory usage: 12765.34MB

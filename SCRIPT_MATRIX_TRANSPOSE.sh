@@ -1,0 +1,3 @@
+#!/bin/sh
+
+(magma main/GET_MATRIX_TRANSPOSE.m) > ./outputs/OUTPUT_OBTAINED_BY_THE_SCRIPT_GET_MATRIX_TRANPOSE &

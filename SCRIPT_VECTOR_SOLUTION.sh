@@ -1,0 +1,3 @@
+#!/bin/sh
+
+(magma main/GET_VECTOR_OF_THE_KERNEL.m) > ./outputs/OUTPUT_OBTAINED_BY_THE_SCRIPT_GET_VECTOR_SOLUTION &
