@@ -59,7 +59,7 @@ outputs/tmp and outputs/logs. This step is done only one time by running the
 following two commands:
 
 	mkdir outputs/tmp
-	mkdir outputs/tmp
+	mkdir outputs/logs
 
 
 
